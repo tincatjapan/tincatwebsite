@@ -131,46 +131,6 @@ html, body {
   }
 }
 
-/* -------------------------- Responsive -------------------------*/
-@media screen and (max-width: 540px) {
-  .slogan {
-    font-size: 32px;
-  }
-
-  .google-download, .apple-download {
-    height: 50px;
-    display: block;
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-
-  .testimonial-text {
-    font-size: 22px;
-  }
-
-  .carousel-item {
-    padding: 15% 15% 8% !important;
-  }
-
-  #press img {
-    padding: 0 !important;
-  }
-
-  #pricing h2 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-
-  #cta h3 {
-    font-size: 1.5rem !important;
-    margin-top: 20px;
-  }
-
-  #cta .btn {
-    margin: 0 0 20px !important;
-  }
-}
-
 /* -------------------------- features -------------------------- */
 #features {
   background-color: #FFFCF9;
@@ -362,4 +322,44 @@ html, body {
 
 #footer p {
   font-size: 12px;
+}
+
+/* -------------------------- Responsive -------------------------*/
+@media screen and (max-width: 540px) {
+  .slogan {
+    font-size: 32px;
+  }
+
+  .google-download, .apple-download {
+    height: 50px;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .testimonial-text {
+    font-size: 22px;
+  }
+
+  .carousel-item {
+    padding: 15% 15% 8% !important;
+  }
+
+  #press img {
+    padding: 0 !important;
+  }
+
+  #pricing h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #cta h3 {
+    font-size: 1.5rem !important;
+    margin-top: 20px;
+  }
+
+  #cta .btn {
+    margin: 0 0 20px !important;
+  }
 }
