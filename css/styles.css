@@ -279,6 +279,39 @@ html, body {
   margin: 20px;
 }
 
+
+/* -------------------------- cta -------------------------- */
+#message {
+  background-color: #fff;
+}
+
+#message .container {
+  padding: 8% 12%;
+}
+
+#message h3 {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#message p {
+  line-height: 1.6;
+}
+
+.founder {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.message-text {
+  padding-left: 40px;
+}
+
+.founder-name {
+  font-weight: 700;
+}
+
 /* -------------------------- cta -------------------------- */
 #cta {
   background-color: #B1EDE8;
@@ -328,7 +361,7 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
   }
-  
+
   .slogan {
     font-size: 32px;
   }
@@ -355,6 +388,32 @@ html, body {
   #pricing h2 {
     margin-top: 30px;
     margin-bottom: 20px;
+  }
+
+  #message .container {
+    padding: 15% 8%;
+  }
+
+  .message-text {
+    padding: 0 20px;
+  }
+
+  #message h3 {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  #message p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .founder-name {
+    font-size: 1rem;
+  }
+
+  #cta .container {
+    padding: 8% 12% 10%;
   }
 
   #cta h3 {
