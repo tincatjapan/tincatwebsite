@@ -325,7 +325,7 @@ html, body {
 }
 
 /* -------------------------- Responsive -------------------------*/
-@media screen and (max-width: 540px) {
+@media screen (max-width: 540px) {
   .slogan {
     font-size: 32px;
   }
